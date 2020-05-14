@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		BB946058246C61E800707295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB946057246C61E800707295 /* AppDelegate.swift */; };
 		BB94605A246C61E800707295 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB946059246C61E800707295 /* SceneDelegate.swift */; };
-		BB94605C246C61E800707295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94605B246C61E800707295 /* ViewController.swift */; };
 		BB94605F246C61E800707295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB94605D246C61E800707295 /* Main.storyboard */; };
 		BB946061246C61F100707295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB946060246C61F100707295 /* Assets.xcassets */; };
 		BB946064246C61F100707295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB946062246C61F100707295 /* LaunchScreen.storyboard */; };
+		BB94606C246C68EE00707295 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94606B246C68EE00707295 /* SearchViewController.swift */; };
+		BB94606E246C6E8D00707295 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94606D246C6E8D00707295 /* MainTabBarController.swift */; };
+		BB946070246C734100707295 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94606F246C734100707295 /* SearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB946054246C61E800707295 /* PogodaApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PogodaApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB946057246C61E800707295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB946059246C61E800707295 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB94605B246C61E800707295 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB94605E246C61E800707295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB946060246C61F100707295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB946063246C61F100707295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB946065246C61F100707295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB94606B246C68EE00707295 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BB94606D246C6E8D00707295 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		BB94606F246C734100707295 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				BB946057246C61E800707295 /* AppDelegate.swift */,
 				BB946059246C61E800707295 /* SceneDelegate.swift */,
-				BB94605B246C61E800707295 /* ViewController.swift */,
 				BB94605D246C61E800707295 /* Main.storyboard */,
+				BB94606D246C6E8D00707295 /* MainTabBarController.swift */,
+				BB94606B246C68EE00707295 /* SearchViewController.swift */,
+				BB94606F246C734100707295 /* SearchResponse.swift */,
 				BB946060246C61F100707295 /* Assets.xcassets */,
 				BB946062246C61F100707295 /* LaunchScreen.storyboard */,
 				BB946065246C61F100707295 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB94605C246C61E800707295 /* ViewController.swift in Sources */,
+				BB94606C246C68EE00707295 /* SearchViewController.swift in Sources */,
+				BB946070246C734100707295 /* SearchResponse.swift in Sources */,
 				BB946058246C61E800707295 /* AppDelegate.swift in Sources */,
+				BB94606E246C6E8D00707295 /* MainTabBarController.swift in Sources */,
 				BB94605A246C61E800707295 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
